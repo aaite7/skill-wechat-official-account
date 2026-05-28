@@ -142,7 +142,7 @@ def optimize_title(original_title):
     suggestions.append(f"《从 0 到 100 万，{original_title[:10]}...》")
     
     # 悬念型
-    suggestions.append(f"《{original_title.replace('如何', '为什么')}}？90% 的人都错了》")
+    suggestions.append(f"《{original_title.replace('如何', '为什么')}？90% 的人都错了》")
     
     # 痛点型
     suggestions.append(f"《还在为{original_title[:8]}烦恼？这 5 招搞定》")
